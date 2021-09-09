@@ -1,37 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="styles.css">
         <title>Quinn Cummings</title>
     </head>
     <body>
-        <h1>Quinn Cummings Lab 1: Intro to HTML</h1>
-        <h2>First, the basics.</h2>
-        <p>My class goals</p>
-        <ul>
-            <li>Get an A... Obviously.</li>
-            <li>Create a website!</li>
-            <li>Have Fun.</li>
-        </ul>
-        <p>My top 5 albums</p>
-        <ol>
-            <li>Astroworld</li>
-            <li>The Life of Pablo</li>
-            <li>Birds in the Trap Sing McKnight</li>
-            <li>Born Sinner</li>
-            <li>2014 Forest Hills Drive</li>
-        </ol>
-        <h2>Images</h2>
-        <img src='images/mochi.gif' alt="onigiri_1"/>
-        <img src='images/mochi.jpg' alt="onigiri_2"/>
-        <img src='images/mochi.png' alt="onigiri_3"/>
-        <img src='images/mochi.svg' alt="onigiri_4"/>
-        <h2>Inline Elements</h2>
-        <p>Here, look at my <em>emphasised</em> element</p>
-        <p>Here, look at my <strong>strong</strong> element</p>
-        <p>Here, look at my <em><strong>strongly emphasized</strong></em> element</p>
-        <p>im about to soft line break now. <br> Wow! I did it. <br> Now lets try a hard rule</p>
-        <hr>
-        <p>And thats all folks</p>
-        <a href='https://github.com/QuinnCummings/INST377-Lab-Work'>GitHub</a>
+        <div class='wrapper'>
+            <h1 class='title'>Quinn Cummings Lab 2: CSS 1</h1>
+            <nav>
+                <a href='../index.html'>Main Page</a>
+                <a href='selectors.html'>Selectors</a>
+            </nav>
+            <h2 class='subtitle'>First, the basics.</h2>
+            <div class='section_1'>
+                <div>
+                    <p>My top 5 albums</p>
+                    <ol>
+                        <li>Astroworld</li>
+                        <li>The Life of Pablo</li>
+                        <li>Birds in the Trap Sing McKnight</li>
+                        <li>Born Sinner</li>
+                        <li>2014 Forest Hills Drive</li>
+                    </ol>
+                </div>
+                
+                <div>
+                    <p>My class goals</p>
+                    <ul>
+                        <li>Get an A... Obviously.</li>
+                        <li>Create a website!</li>
+                        <li>Have Fun.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class='section_2'>
+                <h2 class='subtitle'>Inline Elements</h2>
+                <p>Here, look at my <em>emphasised</em> element</p>
+                <p>Here, look at my <strong>strong</strong> element</p>
+                <p>Here, look at my <em><strong>strongly emphasized</strong></em> element</p>
+            </div>
+            <div class='section_3'>
+                <p>im about to soft line break now. <br> Wow! I did it. <br> Now lets try a hard rule</p>
+            </div>
+            <div class='section_4'>
+                <h2 class="subtitle">Images</h2>
+                <div class='slides'>
+                    <img src='images/mochi.gif' alt="onigiri_1"/>
+                    <img src='images/mochi.jpg' alt="onigiri_2"/>
+                    <img src='images/mochi.png' alt="onigiri_3"/>
+                    <img src='images/mochi.svg' alt="onigiri_4"/>
+                </div>
+            </div>
+            <hr>
+            <p>And thats all folks</p>
+            <a href='https://github.com/QuinnCummings/INST377-Lab-Work'>GitHub</a>
+        </div>
     </body>
 </html>
