@@ -4,6 +4,16 @@
     box-sizing: border-box;
   }
   
+  @media only screen and (max-width: 400px) {
+    .sign-up,
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+      width: 50%;
+    }
+  }
+  
+
   .top-container {
     color: #fff;
     background-color: #40a158;  
@@ -34,7 +44,7 @@
     justify-content: flex-end;
   }
   
-  .login {
+  .signup {
     margin-left: 20px;
   }
 
