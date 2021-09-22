@@ -112,7 +112,6 @@
   }
 
   @media only screen and (max-width: 400px) {
-    .sign-up,
     .photo-grid-item {
       width: 50%;
     }
